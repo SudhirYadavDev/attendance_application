@@ -7,6 +7,18 @@ Backend: https://attendance-backend-x6cn.onrender.com
 
 ---
 
+## Test Accounts
+
+Use the following test accounts to verify all roles:
+
+- Student: student_1  
+- Trainer: trainer_1  
+- Institution: institution_1  
+- Programme Manager: pm_1  
+- Monitoring Officer: monitor_1  
+
+Note: These are Clerk User IDs used for login in the system.
+
 ## Project Overview
 
 This is a full-stack Attendance Management System.
