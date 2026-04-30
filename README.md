@@ -135,3 +135,58 @@ mvn spring-boot:run
 cd attendance-frontend
 npm install
 npm run dev
+```
+
+### Environment Variables (Backend)
+```bash
+SPRING_DATASOURCE_URL=your_neon_url
+SPRING_DATASOURCE_USERNAME=your_username
+SPRING_DATASOURCE_PASSWORD=your_password
+PORT=8080
+```
+
+---
+
+### What is Working
+```bash
+Role-based login and routing
+Student attendance marking
+Trainer session management
+Batch creation and invites
+Institution and programme summaries
+Monitoring officer dashboard
+Fully deployed frontend and backend
+```
+
+### Limitations
+```bash
+Basic UI (focus on functionality)
+No real-time updates
+Simple token-based invite system
+```
+
+### Notes
+```bash
+Backend validates roles on every request (not frontend-only)
+Attendance and batch relationships are fully relational
+System is fully deployed and connected to PostgreSQL
+```
+
+---
+
+## 7. One thing I would do differently with more time
+```bash
+If I had more time, I would improve the system by introducing a more robust authentication and authorization layer using Clerk session verification on the backend for every request. Currently, role-based access is handled correctly, but I would further strengthen security by adding token validation middleware and finer-grained permission checks per endpoint.
+
+Additionally, I would refactor the frontend into a more modular architecture with reusable UI components and add better state management (such as Redux or React Query) to improve scalability and reduce repeated API calls.
+
+Finally, I would enhance the UI/UX with better loading states, error handling components, and real-time attendance updates using WebSockets so that trainers and students can see updates instantly without refreshing.
+```
+
+---
+Thanks for checking out Attendance Management Application!
+
+---
+Give this repo a ⭐ if it helped you!
+
+<p align="center">Made with ❤️ by Sudhir Yadav</p>
