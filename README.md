@@ -9,7 +9,7 @@ Backend: https://attendance-backend-x6cn.onrender.com
 
 ## Project Overview
 
-This is a full-stack Attendance Management System built for a fictional state-level skilling program called SkillBridge.
+This is a full-stack Attendance Management System.
 
 The system supports five roles:
 
