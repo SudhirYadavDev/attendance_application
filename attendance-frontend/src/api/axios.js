@@ -7,7 +7,7 @@ export const setClerkUserId = (id) => {
 };
 
 const API = axios.create({
-  baseURL: "http://localhost:8080",
+  baseURL: "https://attendance-backend-x6cn.onrender.com",
 });
 
 API.interceptors.request.use((config) => {
